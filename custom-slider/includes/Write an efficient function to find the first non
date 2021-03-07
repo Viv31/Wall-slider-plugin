@@ -1,0 +1,20 @@
+Write an efficient function to find the first non repeated character in a string. For instance, the first non repeated character in “total” is 'o' and the first non repeated character in “teeter” is 'r'.
+
+
+function NonrepetedString($string){
+	//$pos = strpos($string,1);
+	$pos1 = explode($pos);
+	$i=0;
+	foreach($pos1[$i]){
+	$char = $pos1[$i];
+	if($char === $pos1[$i]){
+	echo "matched";
+
+	}
+	else{
+	echo "";
+	}
+	}
+	
+
+}
